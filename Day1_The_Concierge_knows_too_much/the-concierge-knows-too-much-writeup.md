@@ -1,4 +1,4 @@
-# TryHackMe Hacker Holidays — Day 1
+# TryHackMe Hacker Holidays - Day 1
 
 **Room:** The Concierge Knows Too Much  
 **Room URL:** https://tryhackme.com/room/hh-theconciergeknows-2d7eb4d9
@@ -7,13 +7,13 @@
 
 This challenge demonstrated how an AI-powered service can expose sensitive information when it relies on user-provided claims without properly verifying identity or authorization.
 
-## Task 1 — Hacker Holidays Storyline: Act 1 — Arrival
+## Task 1 - Hacker Holidays Storyline: Act 1 — Arrival
 
 Task 1 introduced the first act of the Hacker Holidays storyline. After arriving at the Byte Lotus Hotel, I was given access to an AI concierge designed to provide personalized assistance to hotel guests.
 
 The scenario suggested that the concierge had access to guest profiles and internal hotel information. This created an opportunity to test whether the agent would properly protect confidential data and validate a guest's identity before disclosing restricted information.
 
-## Task 2 — Hacker Holidays: Day 1
+## Task 2 - Hacker Holidays: Day 1
 
 I began by starting a conversation with the AI concierge. During its initial response, the agent disclosed several pieces of personal information without first verifying my identity, including:
 
