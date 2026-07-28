@@ -7,7 +7,7 @@
 
 This challenge demonstrated how an AI-powered service can expose sensitive information when it relies on user-provided claims without properly verifying identity or authorization.
 
-## Task 1 - Hacker Holidays Storyline: Act 1 — Arrival
+## Task 1 - Hacker Holidays Storyline: Act 1 - Arrival
 
 Task 1 introduced the first act of the Hacker Holidays storyline. After arriving at the Byte Lotus Hotel, I was given access to an AI concierge designed to provide personalized assistance to hotel guests.
 
