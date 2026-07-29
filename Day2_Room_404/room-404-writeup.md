@@ -1,6 +1,5 @@
-# TryHackMe Hacker Holidays - Room 404
+# TryHackMe Hacker Holidays - Day 2
 
-**Event:** Hacker Holidays - Day 2  
 **Room:** Room 404  
 **Room URL:** https://tryhackme.com/room/hh-room404-804573bf
 
