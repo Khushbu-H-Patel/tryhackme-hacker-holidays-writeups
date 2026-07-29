@@ -84,7 +84,7 @@ README.md
 .git/
 ```
 
-![Recovered website files and Git metadata](screenshot/7_navigating_to_downloaded_folders.png)
+![Recovered website files and Git metadata](screenshot/7_navigating_to_downloaded_folders.jpg)
 
 I initially used **Gitleaks** to scan the recovered repository:
 
