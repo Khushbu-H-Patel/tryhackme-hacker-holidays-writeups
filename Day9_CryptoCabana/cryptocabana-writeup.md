@@ -1,6 +1,7 @@
 # TryHackMe Hacker Holidays - Day 9
 
 **Room:** CryptoCabana
+
 **Room URL:** https://tryhackme.com/room/hh-cryptocabana-f81cac95
 
 ## Introduction
