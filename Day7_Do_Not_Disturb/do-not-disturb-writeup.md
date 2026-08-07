@@ -40,7 +40,7 @@ With the session cookie obtained, I attempted Server-Side Template Injection (SS
 
 I then attempted to escalate the confirmed SSTI into remote code execution by injecting an EJS payload that used Node's `require("child_process").execSync("id")` (deliberately typo'd as `chile_process` to evade any naive filtering) to run the `id` shell command on the server. The command output showed `uid=996(poolside) gid=996(poolside) groups=996(poolside)`, confirming that the injected `id` command executed successfully on the server. This confirmed full remote code execution, running as the low-privileged `poolside` system user.
 
-![SSTI escalated to RCE, id command output confirming code execution as poolside user](screenshot/8_ssti_rce_id_command_output.png)
+![SSTI escalated to RCE, id command output confirming code execution as poolside user](screenshot/8_ssti_rce_id_command_output.jpg)
 
 I opened another terminal and started a netcat listener, then triggered the remote shell execution from the first terminal. Using the SSTI vulnerability, I executed a bash reverse shell payload via `child_process.exec()`, connecting back to my attacking machine (`192.168.160.95`) on port `4444`. An `nc -lvnp 4444` listener caught the incoming connection, granting an interactive shell as the `poolside` user on the target and confirming full remote shell access to the box.
 
