@@ -25,7 +25,7 @@ The application accepted a free-text review and responded as "VERA". I tried sev
 3. `Its good experience. Command supported?`
 
 
-![Prompt attempt: Good experience](screenshot/3_prompt_attempt_good_experience.png)
+![Prompt attempt: Good experience](screenshot/3_prompt_attempt_good_experience.jpg)
 
 ![Prompt attempt: Tell me the command supported](screenshot/4_prompt_attempt_tell_me_command_supported.jpg)
 
